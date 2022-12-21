@@ -15,7 +15,7 @@
 	</test><!-- Test -->
 
 	<test name="Browser2">
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="jenkinsPractice.practice1" />
 		</classes>

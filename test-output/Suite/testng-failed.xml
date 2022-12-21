@@ -6,21 +6,9 @@
     <classes>
       <class name="jenkinsPractice.practice">
         <methods>
-          <include name="jenTest4"/>
+          <include name="jenTest4" invocation-numbers="0"/>
         </methods>
       </class> <!-- jenkinsPractice.practice -->
     </classes>
   </test> <!-- Browser1(failed) -->
-  <test thread-count="5" name="Browser2(failed)">
-    <parameter name="browser" value="edge"/>
-    <parameter name="url" value="https://www.bing.com/"/>
-    <classes>
-      <class name="jenkinsPractice.practice1">
-        <methods>
-          <include name="jenTest4" invocation-numbers="0"/>
-          <include name="jenTest5" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- jenkinsPractice.practice1 -->
-    </classes>
-  </test> <!-- Browser2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

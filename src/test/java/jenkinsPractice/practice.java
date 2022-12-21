@@ -20,7 +20,7 @@ public class practice
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.google.com");
-			System.out.println(driver.getCurrentUrl()+"Sanity Test case Jen chrome" );
+			System.out.println(driver.getCurrentUrl()+"Sanity Test case1 Jen 1st class" );
 			driver.quit();
 		}
 		else
@@ -39,7 +39,7 @@ public class practice
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.gmail.com");
 			Thread.sleep(500);
-			System.out.println(driver.getTitle()+"/  system Test case Jen chrome" );
+			System.out.println(driver.getTitle()+"/  system Test case2 Jen 1st class" );
 			driver.quit();
 		}
 		else
@@ -58,7 +58,7 @@ public class practice
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.bing.com");
 			Thread.sleep(500);
-			System.out.println(driver.getCurrentUrl()+"regration Test case Jen chrome" );
+			System.out.println(driver.getCurrentUrl()+"regration Test case3 Jen 1st class" );
 			driver.quit();
 		}
 		else
@@ -79,7 +79,7 @@ public class practice
 			driver.get(url);
 			Thread.sleep(500);
 			System.out.println(url);
-			System.out.println(driver.getCurrentUrl()+"data from system Test case Jen chrome" );
+			System.out.println(driver.getCurrentUrl()+"data from system Test case4 Jen 1st class" );
 			driver.quit();
 		}
 
