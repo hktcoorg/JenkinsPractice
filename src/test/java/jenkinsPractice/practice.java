@@ -1,11 +1,14 @@
 package jenkinsPractice;
 
+import java.awt.AWTException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import GenricUtility.WebdriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class practice 
@@ -50,10 +53,11 @@ public class practice
 
 	@Parameters("browser")
 	@Test(groups = "regression")
-	public void jenTest3(@Optional("chrome") String browser) throws InterruptedException
+	public void jenTest3(@Optional("chrome") String browser) throws InterruptedException, AWTException
 	{
 		if(browser.equals("chrome"))
 		{
+			
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.bing.com");

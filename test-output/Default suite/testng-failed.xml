@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jenkinsPractice.practice1">
+      <class name="jenkinsPractice.practice">
         <methods>
-          <include name="jenTest4" invocation-numbers="0"/>
-          <include name="jenTest5" invocation-numbers="0"/>
+          <include name="jenTest3" invocation-numbers="0"/>
         </methods>
-      </class> <!-- jenkinsPractice.practice1 -->
+      </class> <!-- jenkinsPractice.practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
